@@ -309,7 +309,7 @@ const Portfolio = () => {
       
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <Card variant="glass" className="inline-block p-4 mb-6">
-          <div className="text-red-500 text-sm font-mono mb-2">SISTEMA INICIADO // STATUS: ACTIVO</div>
+          <div className="text-red-500 text-sm font-mono mb-2">SISTEMA INICIADO <span style={{margin: '0 4px'}}>&#47;&#47;</span> STATUS: ACTIVO</div>
           <h1 className="text-4xl lg:text-6xl font-bold text-white mb-4">
             Nicolás García
             <span className="block text-red-500 text-2xl lg:text-3xl font-normal mt-2">Backend Engineer</span>
@@ -422,7 +422,7 @@ const Portfolio = () => {
                       </Badge>
                     </div>
                     <div className="text-red-500 font-mono text-sm mb-2">
-                      CASO_{caseFiles[currentCase].id} // TIMEFRAME: {caseFiles[currentCase].timeframe}
+                      CASO_{caseFiles[currentCase].id} <span style={{margin: '0 4px'}}>&#47;&#47;</span> TIMEFRAME: {caseFiles[currentCase].timeframe}
                     </div>
                   </div>
 
