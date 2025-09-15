@@ -13,7 +13,7 @@ const useParticles = (isAnimating: boolean) => {
 
     let animationFrameId: number | null = null;
     type Particle = { x: number; y: number; size: number; speedX: number; speedY: number; opacity: number; };
-    let particles: Particle[] = [];
+  const particles: Particle[] = [];
     
     const resizeCanvas = () => {
       canvasElement.width = window.innerWidth;
@@ -250,7 +250,7 @@ const Portfolio = () => {
   const [currentSection, setCurrentSection] = useState('hero');
   const [currentCase, setCurrentCase] = useState(0);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [skillFilter, setSkillFilter] = useState('all');
+  // ...eliminado skillFilter y setSkillFilter no usados...
   const [isAnimating, setIsAnimating] = useState(true);
   const [formData, setFormData] = useState({
     name: '',
@@ -259,7 +259,7 @@ const Portfolio = () => {
     message: ''
   });
 
-  const { caseFiles, skills } = usePortfolioData();
+  const { caseFiles } = usePortfolioData();
   
   // Custom hook para partículas
   useParticles(isAnimating);
@@ -319,7 +319,7 @@ const Portfolio = () => {
         <Card variant="glass" className="p-8 mb-8">
           <div className="text-red-400 text-sm font-mono mb-4">FILOSOFÍA_CORE.exe</div>
           <blockquote className="text-xl lg:text-2xl text-gray-200 font-light leading-relaxed mb-6">
-            "Automatizo procesos para liberar tiempo y vivir plenamente"
+            &quot;Automatizo procesos para liberar tiempo y vivir plenamente&quot;
           </blockquote>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 text-sm text-gray-400">
             <div className="flex items-center justify-center space-x-2">
@@ -372,7 +372,7 @@ const Portfolio = () => {
         </div>
 
         <Card className="overflow-hidden">
-          {/* Case Navigation */}
+          {/** Case Navigation */}
           <div className="border-b border-gray-700 p-6">
             <div className="flex flex-wrap gap-2 mb-4">
               {caseFiles.map((caseFile, index) => (
@@ -721,7 +721,7 @@ export default Portfolio;
 type Skill = {
   name: string;
   level: string;
-  icon: React.ComponentType<any>;
+  icon: React.ComponentType<Record<string, unknown>>;
   description: string;
 };
 
@@ -891,7 +891,7 @@ const ProfileSection = () => {
                 </h4>
                 <Card variant="gradient" className="p-6">
                   <p className="text-gray-300 mb-4">
-                    "La tecnología debe servir a la vida, no dominarla. Cada proceso automatizado es tiempo recuperado para las cosas que realmente importan."
+                    &quot;La tecnología debe servir a la vida, no dominarla. Cada proceso automatizado es tiempo recuperado para las cosas que realmente importan.&quot;
                   </p>
                   <div className="grid grid-cols-1 gap-3">
                     <div className="flex items-center text-sm text-gray-400">
