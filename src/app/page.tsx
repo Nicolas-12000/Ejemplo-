@@ -372,7 +372,7 @@ const Portfolio = () => {
         </div>
 
         <Card className="overflow-hidden">
-          {/* Case Navigation */}
+
           <div className="border-b border-gray-700 p-6">
             <div className="flex flex-wrap gap-2 mb-4">
               {caseFiles.map((caseFile, index) => (
@@ -410,7 +410,6 @@ const Portfolio = () => {
             </div>
           </div>
 
-          {/* Case Content */}
           <div className="p-8">
             {caseFiles[currentCase] && (
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -500,7 +499,6 @@ const Portfolio = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Contact Form */}
           <Card className="p-8">
             <div className="flex items-center mb-6">
               <Mail className="w-6 h-6 text-red-500 mr-3" />
@@ -564,7 +562,6 @@ const Portfolio = () => {
             </form>
           </Card>
 
-          {/* Contact Info */}
           <div className="space-y-8">
             <Card className="p-8">
               <h3 className="text-xl font-bold text-white mb-6">Enlaces Profesionales</h3>
@@ -633,7 +630,6 @@ const Portfolio = () => {
 
   return (
     <div className="min-h-screen bg-gray-950 text-white overflow-x-hidden">
-      {/* Desktop Sidebar Navigation */}
       <div className="fixed left-0 top-0 h-full w-64 bg-gray-900/95 backdrop-blur-sm border-r border-gray-700 z-50 hidden lg:block">
         <div className="p-6">
           <div className="flex items-center space-x-3 mb-8">
@@ -662,7 +658,6 @@ const Portfolio = () => {
         </div>
       </div>
 
-      {/* Mobile Header */}
       <div className="lg:hidden fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm border-b border-gray-700 z-50">
         <div className="flex items-center justify-between p-4">
           <div className="flex items-center space-x-3">
@@ -683,7 +678,6 @@ const Portfolio = () => {
           </Button>
         </div>
 
-        {/* Mobile Menu */}
         {mobileMenuOpen && (
           <div className="absolute top-full left-0 right-0 bg-gray-900/95 backdrop-blur-sm border-b border-gray-700 p-4">
             <NavigationMenu isMobile />
@@ -691,7 +685,6 @@ const Portfolio = () => {
         )}
       </div>
 
-      {/* Main Content */}
       <div className="lg:ml-64 pt-20 lg:pt-0">
         {currentSection === 'hero' && <HeroSection />}
         {currentSection === 'cases' && <CaseFilesSection />}
@@ -700,7 +693,6 @@ const Portfolio = () => {
         {currentSection === 'contact' && <ContactSection />}
       </div>
 
-      {/* Floating Action Button (Mobile) */}
       <div className="fixed bottom-6 right-6 lg:hidden">
         <Button
           size="lg"
@@ -744,7 +736,6 @@ const SkillsSection = () => {
           </p>
         </div>
 
-        {/* Skill Filters */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {(['all', ...Object.keys(skills)] as (string | keyof typeof skills)[]).map((filter) => (
             <Button
@@ -757,7 +748,6 @@ const SkillsSection = () => {
           ))}
         </div>
 
-        {/* Skills Grid */}
         <div className="space-y-12">
           {Object.entries(filteredSkills).map(([category, skillList]: [string, Skill[]]) => (
             <div key={category}>
@@ -841,7 +831,6 @@ const ProfileSection = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Professional Profile */}
           <Card className="p-8">
             <div className="flex items-center mb-8">
               <Briefcase className="w-8 h-8 text-red-500 mr-4" />
@@ -876,7 +865,6 @@ const ProfileSection = () => {
             </div>
           </Card>
 
-          {/* Personal Profile */}
           <Card className="p-8">
             <div className="flex items-center mb-8">
               <User className="w-8 h-8 text-red-500 mr-4" />
