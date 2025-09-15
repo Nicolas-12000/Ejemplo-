@@ -372,7 +372,7 @@ const Portfolio = () => {
         </div>
 
         <Card className="overflow-hidden">
-          {/** Case Navigation */}
+          {/* Case Navigation */}
           <div className="border-b border-gray-700 p-6">
             <div className="flex flex-wrap gap-2 mb-4">
               {caseFiles.map((caseFile, index) => (
