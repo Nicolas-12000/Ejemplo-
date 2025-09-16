@@ -101,7 +101,7 @@ const Portfolio = () => {
     { id: 'cases', label: 'Case Files', icon: FileText },
     { id: 'tech', label: 'Tech Dashboard', icon: Cpu },
     { id: 'profile', label: 'Engineer Profile', icon: User },
-    { id: 'contact', label: 'Archives & Contact', icon: Mail }
+    { id: 'contact', label: 'Archives y Contact', icon: Mail }
   ];
 
   return (
