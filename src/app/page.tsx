@@ -454,7 +454,7 @@ const Portfolio = () => {
                 <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-green-600/20 p-6">
                   <div className="flex items-center mb-4">
                     <Database className="w-8 h-8 text-green-400 mr-3" />
-                    <h4 className="text-xl font-bold">Backend y Arquitectura</h4>
+                    <h4 className="text-xl font-bold">Backend y arquitectura</h4>
                   </div>
                   <div className="grid grid-cols-2 gap-3">
                     <span className="bg-orange-600/20 text-orange-300 px-3 py-2 rounded text-sm text-center">Spring Boot</span>
@@ -469,7 +469,7 @@ const Portfolio = () => {
                 <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-green-600/20 p-6">
                   <div className="flex items-center mb-4">
                     <Settings className="w-8 h-8 text-green-400 mr-3" />
-                    <h4 className="text-xl font-bold">Bases de Datos y metodologías</h4>
+                    <h4 className="text-xl font-bold">Bases de datos y metodologías</h4>
                   </div>
                   <div className="grid grid-cols-2 gap-3">
                     <span className="bg-blue-600/20 text-blue-300 px-3 py-2 rounded text-sm text-center">MySQL</span>
