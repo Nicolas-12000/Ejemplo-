@@ -101,7 +101,7 @@ const Portfolio = () => {
     { id: 'cases', label: 'Case Files', icon: FileText },
     { id: 'tech', label: 'Tech Dashboard', icon: Cpu },
     { id: 'profile', label: 'Engineer Profile', icon: User },
-    { id: 'contact', label: 'Archives y Contact', icon: Mail }
+    { id: 'contact', label: 'Archives & Contact', icon: Mail }
   ];
 
   return (
@@ -768,7 +768,7 @@ const Portfolio = () => {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-red-400 to-yellow-400 bg-clip-text text-transparent">
-              ARCHIVOS y CONTACTO
+              ARCHIVOS Y CONTACTO
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Expediente completo disponible. Listo para trabajar juntos y aportar valor real a tu equipo o empresa.
@@ -811,14 +811,14 @@ const Portfolio = () => {
                 <div className="mt-8 p-6 bg-gradient-to-r from-red-900/20 to-yellow-900/20 rounded-xl border border-red-600/30">
                   <h4 className="font-bold text-yellow-400 mb-3 flex items-center">
                     <FileText className="w-5 h-5 mr-2" />
-                    Expediente Técnico Completo
+                    Currículum Vitae
                   </h4>
                   <p className="text-sm text-gray-300 mb-4">
                     CV detallado con casos técnicos, arquitecturas implementadas y métricas de impacto.
                   </p>
                   <button className="w-full bg-gradient-to-r from-red-600 to-yellow-600 hover:from-red-500 hover:to-yellow-500 px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2">
                     <Download className="w-5 h-5" />
-                    <span>Descargar CV Técnico</span>
+                    <span>Descargar CV </span>
                   </button>
                 </div>
               </div>
