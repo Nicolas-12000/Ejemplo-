@@ -234,7 +234,7 @@ const Portfolio = () => {
               className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2 shadow-lg hover:shadow-red-600/20"
             >
               <FileText className="w-5 h-5" />
-              <span>Ver Casos de Estudio</span>
+              <span>Ver Casos de estudio</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
             <button 
@@ -242,7 +242,7 @@ const Portfolio = () => {
               className="group border border-red-600/50 hover:bg-red-600/10 px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2"
             >
               <Cpu className="w-5 h-5" />
-              <span>Stack Técnico</span>
+              <span>Stack técnico</span>
               <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>
