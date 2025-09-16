@@ -206,7 +206,7 @@ const Portfolio = () => {
             <div className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto">
               <span className="text-red-400 font-semibold">&ldquo;Automatizo procesos para optimizar el tiempo y disfrutar la vida&rdquo;</span>
               <br />
-              <span className="text-lg">Ingeniero de Software • Especialista en Backend • Arquitecto de Soluciones</span>
+              <span className="text-lg">Ingeniero de software • Especialista en backend • Arquitecto de soluciones</span>
             </div>
 
             {/* Key Stats */}
@@ -222,7 +222,7 @@ const Portfolio = () => {
               </div>
               <div className="bg-black/40 backdrop-blur-lg rounded-lg p-4 border border-red-900/20 w-full sm:max-w-xs">
                 <div className="text-2xl font-bold text-blue-400">100%</div>
-                <div className="text-sm text-gray-400">Enfoque Calidad</div>
+                <div className="text-sm text-gray-400">Enfoque calidad</div>
               </div>
             </div>
           </div>
@@ -293,7 +293,7 @@ const Portfolio = () => {
                   <span className="text-xs bg-green-600/20 text-green-400 px-2 py-1 rounded-full">COMPLETADO</span>
                 </div>
                 
-                <h3 className="text-xl font-bold mb-3">API REST Enterprise</h3>
+                <h3 className="text-xl font-bold mb-3">API REST enterprise</h3>
                 <p className="text-gray-400 mb-4 text-sm">
                   Desarrollo de API segura con Spring Boot, implementando JWT, documentación Swagger y optimización de queries MySQL.
                 </p>
@@ -337,7 +337,7 @@ const Portfolio = () => {
                   <span className="text-xs bg-yellow-600/20 text-yellow-400 px-2 py-1 rounded-full">EN PROGRESO</span>
                 </div>
                 
-                <h3 className="text-xl font-bold mb-3">Sistema Avícola Integral</h3>
+                <h3 className="text-xl font-bold mb-3">Sistema avícola integral</h3>
                 <p className="text-gray-400 mb-4 text-sm">
                   Automatización completa de inventarios y formularios con Django backend, Flutter mobile y optimizaciones MySQL.
                 </p>
@@ -469,7 +469,7 @@ const Portfolio = () => {
                 <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-green-600/20 p-6">
                   <div className="flex items-center mb-4">
                     <Settings className="w-8 h-8 text-green-400 mr-3" />
-                    <h4 className="text-xl font-bold">Bases de Datos y Metodologías</h4>
+                    <h4 className="text-xl font-bold">Bases de Datos y metodologías</h4>
                   </div>
                   <div className="grid grid-cols-2 gap-3">
                     <span className="bg-blue-600/20 text-blue-300 px-3 py-2 rounded text-sm text-center">MySQL</span>
@@ -493,7 +493,7 @@ const Portfolio = () => {
                 <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-blue-600/20 p-6">
                   <div className="flex items-center mb-4">
                     <Cloud className="w-6 h-6 text-blue-400 mr-2" />
-                    <h4 className="font-bold">DevOps y Cloud</h4>
+                    <h4 className="font-bold">DevOps y cloud</h4>
                   </div>
                   <div className="space-y-2">
                     <span className="block bg-blue-600/20 text-blue-300 px-3 py-2 rounded text-sm text-center">Azure DevOps</span>
@@ -639,12 +639,12 @@ const Portfolio = () => {
                   <div className="w-12 h-12 bg-red-600/20 rounded-lg flex items-center justify-center mr-4">
                     <Terminal className="w-6 h-6 text-red-400" />
                   </div>
-                  <h3 className="text-2xl font-bold">El Ingeniero</h3>
+                  <h3 className="text-2xl font-bold">El ingeniero</h3>
                 </div>
                 
                 <div className="space-y-6">
                   <div>
-                    <h4 className="font-semibold text-red-400 mb-2">Formación y Experiencia</h4>
+                    <h4 className="font-semibold text-red-400 mb-2">Formación y experiencia</h4>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       Estudiante de Ingeniería de Software en la Universidad Cooperativa de Colombia con 2 años de experiencia práctica. 
                       He sido monitor universitario, guiando a estudiantes en conceptos técnicos y colaborando en proyectos institucionales.
@@ -652,7 +652,7 @@ const Portfolio = () => {
                   </div>
                   
                   <div>
-                    <h4 className="font-semibold text-blue-400 mb-2">Metodologías y Liderazgo</h4>
+                    <h4 className="font-semibold text-blue-400 mb-2">Metodologías y liderazgo</h4>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       Especializado en Scrum y metodologías ágiles, principios SOLID y KISS, con experiencia liderando equipos pequeños en la implementación 
                       de mejores prácticas. Enfoque en documentación técnica comprehensiva y mentoring básico.
@@ -660,7 +660,7 @@ const Portfolio = () => {
                   </div>
                   
                   <div>
-                    <h4 className="font-semibold text-yellow-400 mb-2">Proyectos Reales</h4>
+                    <h4 className="font-semibold text-yellow-400 mb-2">Proyectos reales</h4>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       Contribuciones en desarrollo web para instituciones educativas con WordPress, y actualmente optimizando 
                       procesos para una empresa avícola con stack Django/MySQL/Flutter.
@@ -677,7 +677,7 @@ const Portfolio = () => {
                   <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mr-4">
                     <User className="w-6 h-6 text-blue-400" />
                   </div>
-                  <h3 className="text-2xl font-bold">El Ser Humano</h3>
+                  <h3 className="text-2xl font-bold">El ser humano</h3>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-4 mb-6">
@@ -741,7 +741,7 @@ const Portfolio = () => {
                 <div className="w-16 h-16 bg-green-600/20 rounded-full flex items-center justify-center mx-auto">
                   <User className="w-8 h-8 text-green-400" />
                 </div>
-                <h4 className="font-bold text-green-400">Empatía y Colaboración</h4>
+                <h4 className="font-bold text-green-400">Empatía y colaboración</h4>
                 <p className="text-sm text-gray-300">Conexiones auténticas con colegas, mentoring técnico y trabajo en equipo efectivo</p>
               </div>
               <div className="text-center space-y-3">
@@ -755,7 +755,7 @@ const Portfolio = () => {
                 <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto">
                   <Target className="w-8 h-8 text-blue-400" />
                 </div>
-                <h4 className="font-bold text-blue-400">Equilibrio y Resiliencia</h4>
+                <h4 className="font-bold text-blue-400">Equilibrio y resiliencia</h4>
                 <p className="text-sm text-gray-300">Separación trabajo-vida personal, resiliencia a través del deporte y meditación</p>
               </div>
             </div>
@@ -836,7 +836,7 @@ const Portfolio = () => {
                     <Github className="w-6 h-6 text-gray-300 group-hover:text-white" />
                     <div>
                       <div className="font-medium">GitHub</div>
-                      <div className="text-xs text-gray-400">Código y Proyectos</div>
+                      <div className="text-xs text-gray-400">Código y proyectos</div>
                     </div>
                   </a>
                   
@@ -895,7 +895,7 @@ const Portfolio = () => {
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium text-gray-300 mb-2">Tipo de Proyecto</label>
+                  <label className="block text-sm font-medium text-gray-300 mb-2">Tipo de proyecto</label>
                   <select className="w-full bg-gray-800/50 border border-gray-600 rounded-lg px-4 py-3 text-white focus:border-yellow-400 focus:outline-none transition-colors">
                     <option>Backend Development</option>
                     <option>Full-Stack Application</option>
