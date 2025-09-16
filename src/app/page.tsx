@@ -541,7 +541,7 @@ const Portfolio = () => {
                 <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-yellow-600/20 p-6">
                   <div className="flex items-center mb-4">
                     <Code2 className="w-6 h-6 text-yellow-400 mr-2" />
-                    <h4 className="font-bold text-sm">Frontend Moderno</h4>
+                    <h4 className="font-bold text-sm">Frontend moderno</h4>
                   </div>
                   <div className="space-y-2">
                     <span className="block bg-cyan-600/20 text-cyan-300 px-2 py-1 rounded text-xs text-center">React + Hooks</span>
@@ -565,7 +565,7 @@ const Portfolio = () => {
                 <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-yellow-600/20 p-6">
                   <div className="flex items-center mb-4">
                     <Cloud className="w-6 h-6 text-yellow-400 mr-2" />
-                    <h4 className="font-bold text-sm">Cloud Native</h4>
+                    <h4 className="font-bold text-sm">Cloud native</h4>
                   </div>
                   <div className="space-y-2">
                     <span className="block bg-blue-600/20 text-blue-300 px-2 py-1 rounded text-xs text-center">Azure Ecosystem Deep</span>
@@ -597,7 +597,7 @@ const Portfolio = () => {
                 <div className="w-16 h-16 bg-green-600/20 rounded-full flex items-center justify-center mx-auto">
                   <CheckCircle className="w-8 h-8 text-green-400" />
                 </div>
-                <h4 className="font-bold text-green-400">Q1: Backend Mastery</h4>
+                <h4 className="font-bold text-green-400">Q1: Backend mastery</h4>
                 <p className="text-sm text-gray-300">Consolidación Spring Boot + Azure + patrones avanzados</p>
               </div>
               <div className="space-y-4">
@@ -611,7 +611,7 @@ const Portfolio = () => {
                 <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto">
                   <Target className="w-8 h-8 text-blue-400" />
                 </div>
-                <h4 className="font-bold text-blue-400">Q3-Q4: AI Integration</h4>
+                <h4 className="font-bold text-blue-400">Q3-Q4: AI integration</h4>
                 <p className="text-sm text-gray-300">PyTorch aplicado + LLMs en soluciones empresariales</p>
               </div>
             </div>
@@ -825,7 +825,7 @@ const Portfolio = () => {
 
               {/* Social Links */}
               <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-blue-900/20 p-8">
-                <h3 className="text-xl font-bold mb-6 text-blue-400">Conecta Conmigo</h3>
+                <h3 className="text-xl font-bold mb-6 text-blue-400">Conecta conmigo</h3>
                 <div className="grid grid-cols-2 gap-4">
                   <a 
                     href="https://github.com/nicolasgarcia" 
