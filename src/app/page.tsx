@@ -210,21 +210,18 @@ const Portfolio = () => {
             </div>
 
             {/* Key Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 max-w-3xl mx-auto">
-              <div className="bg-black/40 backdrop-blur-lg rounded-lg p-4 border border-red-900/20">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-12 max-w-3xl mx-auto justify-items-center">
+              <div className="bg-black/40 backdrop-blur-lg rounded-lg p-4 border border-red-900/20 w-full max-w-xs">
                 <div className="text-2xl font-bold text-red-400">2+</div>
                 <div className="text-sm text-gray-400">Años Experiencia</div>
               </div>
-              <div className="bg-black/40 backdrop-blur-lg rounded-lg p-4 border border-red-900/20">
-                <div className="text-2xl font-bold text-blue-400">15+</div>
-                <div className="text-sm text-gray-400">Tecnologías</div>
-              </div>
-              <div className="bg-black/40 backdrop-blur-lg rounded-lg p-4 border border-red-900/20">
+
+              <div className="bg-black/40 backdrop-blur-lg rounded-lg p-4 border border-red-900/20 w-full max-w-xs">
                 <div className="text-2xl font-bold text-yellow-400">5+</div>
                 <div className="text-sm text-gray-400">Proyectos</div>
               </div>
-              <div className="bg-black/40 backdrop-blur-lg rounded-lg p-4 border border-red-900/20">
-                <div className="text-2xl font-bold text-green-400">100%</div>
+              <div className="bg-black/40 backdrop-blur-lg rounded-lg p-4 border border-red-900/20 w-full max-w-xs">
+                <div className="text-2xl font-bold text-blue-400">100%</div>
                 <div className="text-sm text-gray-400">Enfoque Calidad</div>
               </div>
             </div>
