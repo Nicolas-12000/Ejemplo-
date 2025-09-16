@@ -454,7 +454,7 @@ const Portfolio = () => {
                 <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-green-600/20 p-6">
                   <div className="flex items-center mb-4">
                     <Database className="w-8 h-8 text-green-400 mr-3" />
-                    <h4 className="text-xl font-bold">Backend & Arquitectura</h4>
+                    <h4 className="text-xl font-bold">Backend y Arquitectura</h4>
                   </div>
                   <div className="grid grid-cols-2 gap-3">
                     <span className="bg-orange-600/20 text-orange-300 px-3 py-2 rounded text-sm text-center">Spring Boot</span>
@@ -469,7 +469,7 @@ const Portfolio = () => {
                 <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-green-600/20 p-6">
                   <div className="flex items-center mb-4">
                     <Settings className="w-8 h-8 text-green-400 mr-3" />
-                    <h4 className="text-xl font-bold">Bases de Datos & Metodologías</h4>
+                    <h4 className="text-xl font-bold">Bases de Datos y Metodologías</h4>
                   </div>
                   <div className="grid grid-cols-2 gap-3">
                     <span className="bg-blue-600/20 text-blue-300 px-3 py-2 rounded text-sm text-center">MySQL</span>
@@ -493,7 +493,7 @@ const Portfolio = () => {
                 <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-blue-600/20 p-6">
                   <div className="flex items-center mb-4">
                     <Cloud className="w-6 h-6 text-blue-400 mr-2" />
-                    <h4 className="font-bold">DevOps & Cloud</h4>
+                    <h4 className="font-bold">DevOps y Cloud</h4>
                   </div>
                   <div className="space-y-2">
                     <span className="block bg-blue-600/20 text-blue-300 px-3 py-2 rounded text-sm text-center">Azure DevOps</span>
@@ -553,7 +553,7 @@ const Portfolio = () => {
                 <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-yellow-600/20 p-6">
                   <div className="flex items-center mb-4">
                     <Cpu className="w-6 h-6 text-yellow-400 mr-2" />
-                    <h4 className="font-bold text-sm">AI & ML</h4>
+                    <h4 className="font-bold text-sm">AI y ML</h4>
                   </div>
                   <div className="space-y-2">
                     <span className="block bg-orange-600/20 text-orange-300 px-2 py-1 rounded text-xs text-center">PyTorch</span>
@@ -644,7 +644,7 @@ const Portfolio = () => {
                 
                 <div className="space-y-6">
                   <div>
-                    <h4 className="font-semibold text-red-400 mb-2">Formación & Experiencia</h4>
+                    <h4 className="font-semibold text-red-400 mb-2">Formación y Experiencia</h4>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       Estudiante de Ingeniería de Software en la Universidad Cooperativa de Colombia con 2 años de experiencia práctica. 
                       He sido monitor universitario, guiando a estudiantes en conceptos técnicos y colaborando en proyectos institucionales.
@@ -652,7 +652,7 @@ const Portfolio = () => {
                   </div>
                   
                   <div>
-                    <h4 className="font-semibold text-blue-400 mb-2">Metodologías & Liderazgo</h4>
+                    <h4 className="font-semibold text-blue-400 mb-2">Metodologías y Liderazgo</h4>
                     <p className="text-gray-300 text-sm leading-relaxed">
                       Especializado en Scrum y metodologías ágiles, principios SOLID y KISS, con experiencia liderando equipos pequeños en la implementación 
                       de mejores prácticas. Enfoque en documentación técnica comprehensiva y mentoring básico.
@@ -741,7 +741,7 @@ const Portfolio = () => {
                 <div className="w-16 h-16 bg-green-600/20 rounded-full flex items-center justify-center mx-auto">
                   <User className="w-8 h-8 text-green-400" />
                 </div>
-                <h4 className="font-bold text-green-400">Empatía & Colaboración</h4>
+                <h4 className="font-bold text-green-400">Empatía y Colaboración</h4>
                 <p className="text-sm text-gray-300">Conexiones auténticas con colegas, mentoring técnico y trabajo en equipo efectivo</p>
               </div>
               <div className="text-center space-y-3">
@@ -755,7 +755,7 @@ const Portfolio = () => {
                 <div className="w-16 h-16 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto">
                   <Target className="w-8 h-8 text-blue-400" />
                 </div>
-                <h4 className="font-bold text-blue-400">Equilibrio & Resiliencia</h4>
+                <h4 className="font-bold text-blue-400">Equilibrio y Resiliencia</h4>
                 <p className="text-sm text-gray-300">Separación trabajo-vida personal, resiliencia a través del deporte y meditación</p>
               </div>
             </div>
@@ -768,7 +768,7 @@ const Portfolio = () => {
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-red-400 to-yellow-400 bg-clip-text text-transparent">
-              ARCHIVOS & CONTACTO
+              ARCHIVOS y CONTACTO
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Expediente completo disponible. Listo para trabajar juntos y aportar valor real a tu equipo o empresa.
@@ -836,7 +836,7 @@ const Portfolio = () => {
                     <Github className="w-6 h-6 text-gray-300 group-hover:text-white" />
                     <div>
                       <div className="font-medium">GitHub</div>
-                      <div className="text-xs text-gray-400">Código & Proyectos</div>
+                      <div className="text-xs text-gray-400">Código y Proyectos</div>
                     </div>
                   </a>
                   
@@ -899,7 +899,7 @@ const Portfolio = () => {
                   <select className="w-full bg-gray-800/50 border border-gray-600 rounded-lg px-4 py-3 text-white focus:border-yellow-400 focus:outline-none transition-colors">
                     <option>Backend Development</option>
                     <option>Full-Stack Application</option>
-                    <option>DevOps & Cloud</option>
+                    <option>DevOps y Cloud</option>
                     <option>Process Automation</option>
                     <option>Technical Consulting</option>
                     <option>Otro</option>
