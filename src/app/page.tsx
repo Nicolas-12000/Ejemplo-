@@ -204,7 +204,7 @@ const Portfolio = () => {
             </h1>
             
             <div className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto">
-              <span className="text-red-400 font-semibold">"Automatizo procesos para optimizar el tiempo y disfrutar la vida"</span>
+              <span className="text-red-400 font-semibold">&ldquo;Automatizo procesos para optimizar el tiempo y disfrutar la vida&rdquo;</span>
               <br />
               <span className="text-lg">Ingeniero de Software • Especialista en Backend • Arquitecto de Soluciones</span>
             </div>
@@ -727,7 +727,7 @@ const Portfolio = () => {
               <div className="bg-gradient-to-r from-red-900/20 to-blue-900/20 backdrop-blur-lg rounded-xl border border-red-600/20 p-6">
                 <h4 className="font-bold text-red-400 mb-3 text-center">Mi Filosofía</h4>
                 <blockquote className="text-center italic text-gray-300 mb-4">
-                  "No trabajo más horas, trabajo más inteligente. Cada línea de código es una hora más para vivir."
+                  &ldquo;No trabajo más horas, trabajo más inteligente. Cada línea de código es una hora más para vivir.&rdquo;
                 </blockquote>
                 <div className="text-sm text-gray-400 text-center">
                   Automatización → Eficiencia → Libertad → Vida plena
@@ -832,6 +832,8 @@ const Portfolio = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <a 
                     href="https://github.com/nicolasgarcia" 
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="Abrir GitHub en nueva pestaña"
                     className="group bg-gray-800/50 hover:bg-gray-700/50 p-4 rounded-lg transition-all duration-300 flex items-center space-x-3"
                   >
                     <Github className="w-6 h-6 text-gray-300 group-hover:text-white" />
@@ -843,6 +845,8 @@ const Portfolio = () => {
                   
                   <a 
                     href="https://linkedin.com/in/nicolasgarcia" 
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="Abrir LinkedIn en nueva pestaña"
                     className="group bg-blue-900/30 hover:bg-blue-800/30 p-4 rounded-lg transition-all duration-300 flex items-center space-x-3"
                   >
                     <Linkedin className="w-6 h-6 text-blue-400 group-hover:text-blue-300" />
@@ -857,6 +861,8 @@ const Portfolio = () => {
                 <div className="mt-4 pt-4 border-t border-gray-700/50">
                   <a 
                     href="https://instagram.com/nicolasgarcia" 
+                    target="_blank" rel="noopener noreferrer"
+                    aria-label="Abrir Instagram en nueva pestaña"
                     className="group text-gray-400 hover:text-purple-400 transition-colors flex items-center space-x-2 text-sm"
                   >
                     <Instagram className="w-4 h-4" />
@@ -944,7 +950,7 @@ const Portfolio = () => {
             
             <div className="text-sm text-gray-400 text-center">
               <p>© 2025 Nicolás Alejandro García Pasmiño</p>
-              <p className="mt-1">"Cada línea de código es una hora más para vivir"</p>
+              <p className="mt-1">&ldquo;Cada línea de código es una hora más para vivir&rdquo;</p>
             </div>
             
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
