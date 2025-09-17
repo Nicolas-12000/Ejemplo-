@@ -128,7 +128,7 @@ const Portfolio = () => {
               <div className="w-8 h-8 bg-gradient-to-br from-red-500 to-red-700 rounded-lg flex items-center justify-center">
                 <Code2 className="w-5 h-5" />
               </div>
-              <span className="font-bold text-lg">N.GARCÍA</span>
+              <span className="font-bold text-lg">GARCÍA LABS</span>
             </div>
 
             {/* Desktop Menu */}
@@ -680,17 +680,13 @@ const Portfolio = () => {
                   <h3 className="text-2xl font-bold">El ser humano</h3>
                 </div>
                 
-                <div className="grid grid-cols-2 gap-4 mb-6">
-                  <div className="bg-gray-800/50 p-4 rounded-lg text-center">
-                    <MapPin className="w-6 h-6 text-green-400 mx-auto mb-2" />
-                    <div className="text-sm font-medium">Pasto, Nariño</div>
-                    <div className="text-xs text-gray-400">Colombia</div>
-                  </div>
-                  <div className="bg-gray-800/50 p-4 rounded-lg text-center">
-                    <Calendar className="w-6 h-6 text-blue-400 mx-auto mb-2" />
-                    <div className="text-sm font-medium">Disponible</div>
-                    <div className="text-xs text-gray-400">Remoto/Híbrido</div>
-                  </div>
+                <div className="text-gray-300 text-sm leading-relaxed mb-6 space-y-3">
+                  <p>
+                    ¡Hola! Soy Nicolás. A lo largo de mi vida me han llamado de muchas formas, así que siéntete libre de elegir la que desees. Mi hambre de conocimiento no empezó en la universidad, sino mucho antes, con un curso de robótica a los 8 años, alimentado por una curiosidad insaciable por la tecnología y los videojuegos.
+                  </p>
+                  <p>
+                    Cuando no estoy inmerso en el mundo del código, probablemente me encuentres compartiendo un buen café (¡soy un fanático!), entrenando con amigos o simplemente buscando una buena conversación. Creo que las mejores ideas y conexiones nacen de esos momentos auténticos.
+                  </p>
                 </div>
 
                 <div className="space-y-4">
@@ -765,7 +761,7 @@ const Portfolio = () => {
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-gradient-to-b from-gray-900 to-black">
-        <div className="max-w-6xl mx-auto px-4">
+          <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-red-400 to-yellow-400 bg-clip-text text-transparent">
               ARCHIVOS Y CONTACTO
@@ -775,9 +771,9 @@ const Portfolio = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 lg:items-start">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Contact Info */}
-            <div className="space-y-8">
+            <div className="space-y-8 w-full lg:max-w-md mx-auto lg:mx-0">
               <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-red-900/20 p-8">
                 <h3 className="text-2xl font-bold mb-6 text-red-400">Información de Contacto</h3>
                 
@@ -828,7 +824,7 @@ const Portfolio = () => {
                 <h3 className="text-xl font-bold mb-6 text-blue-400">Conecta conmigo</h3>
                 <div className="grid grid-cols-2 gap-4">
                   <a 
-                    href="https://github.com/nicolasgarcia" 
+                    href="https://github.com/Nicolas-12000" 
                     target="_blank" rel="noopener noreferrer"
                     aria-label="Abrir GitHub en nueva pestaña"
                     className="group bg-gray-800/50 hover:bg-gray-700/50 p-4 rounded-lg transition-all duration-300 flex items-center space-x-3"
@@ -841,7 +837,7 @@ const Portfolio = () => {
                   </a>
                   
                   <a 
-                    href="https://linkedin.com/in/nicolasgarcia" 
+                    href="https://www.linkedin.com/in/nicol%C3%A1s-alejandro-garc%C3%ADa-pasmi%C3%B1o-82765333b/" 
                     target="_blank" rel="noopener noreferrer"
                     aria-label="Abrir LinkedIn en nueva pestaña"
                     className="group bg-blue-900/30 hover:bg-blue-800/30 p-4 rounded-lg transition-all duration-300 flex items-center space-x-3"
@@ -857,7 +853,7 @@ const Portfolio = () => {
                 {/* Instagram - Subtle placement */}
                 <div className="mt-4 pt-4 border-t border-gray-700/50">
                   <a 
-                    href="https://instagram.com/nicolasgarcia" 
+                    href="https://www.instagram.com/nico.gp12/" 
                     target="_blank" rel="noopener noreferrer"
                     aria-label="Abrir Instagram en nueva pestaña"
                     className="group text-gray-400 hover:text-purple-400 transition-colors flex items-center space-x-2 text-sm"
@@ -871,7 +867,7 @@ const Portfolio = () => {
             </div>
 
             {/* Contact Form */}
-            <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-yellow-900/20 p-8">
+            <div className="bg-black/60 backdrop-blur-lg rounded-xl border border-yellow-900/20 p-8 w-full lg:max-w-lg mx-auto">
               <h3 className="text-2xl font-bold mb-6 text-yellow-400">Pongámonos en contacto</h3>
               
               <form className="space-y-6">
