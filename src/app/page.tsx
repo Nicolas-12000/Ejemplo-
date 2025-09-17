@@ -682,7 +682,7 @@ const Portfolio = () => {
                 
                 <div className="text-gray-300 text-sm leading-relaxed mb-6 space-y-3">
                   <p>
-                    ¡Hola! Soy Nicolás. A lo largo de mi vida me han llamado de muchas formas, así que siéntete libre de elegir la que desees. Mi hambre de conocimiento no empezó en la universidad, sino mucho antes, con un curso de robótica a los 8 años, alimentado por una curiosidad insaciable por la tecnología y los videojuegos.
+                    ¡Hola! Soy Nicolás Alejandro García Pasmiño. A lo largo de mi vida me han llamado de muchas formas, así que siéntete libre de elegir la que desees. Mi hambre de conocimiento no empezó en la universidad, sino mucho antes, con un curso de robótica a los 8 años, alimentado por una curiosidad insaciable por la tecnología, física y los videojuegos.
                   </p>
                   <p>
                     Cuando no estoy inmerso en el mundo del código, probablemente me encuentres compartiendo un buen café (¡soy un fanático!), entrenando con amigos o simplemente buscando una buena conversación. Creo que las mejores ideas y conexiones nacen de esos momentos auténticos.
