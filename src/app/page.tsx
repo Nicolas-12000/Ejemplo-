@@ -101,7 +101,7 @@ const Portfolio = () => {
     { id: 'cases', label: 'Case Files', icon: FileText },
     { id: 'tech', label: 'Tech Dashboard', icon: Cpu },
     { id: 'profile', label: 'Engineer Profile', icon: User },
-    { id: 'contact', label: 'Archives & Contact', icon: Mail }
+    { id: 'contact', label: 'Contact', icon: Mail }
   ];
 
   return (
@@ -275,7 +275,7 @@ const Portfolio = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-[#E6B93D] via-[#E6B93D] to-[#E63946] bg-clip-text text-transparent">
-              ARCHIVOS DE CASOS
+              CASOS DE INVESTIGACIÓN 
             </h2>
             <p className="text-xl text-[#9CA3AF] max-w-3xl mx-auto">
               Análisis de procesos digitales optimizados. Cada caso representa horas recuperadas y eficiencia maximizada.
@@ -764,7 +764,7 @@ const Portfolio = () => {
           <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-[#E6B93D] via-[#E6B93D] to-[#E63946] bg-clip-text text-transparent">
-              ARCHIVOS Y CONTACTO
+              CONTÁCTAME
             </h2>
             <p className="text-xl text-[#9CA3AF] max-w-3xl mx-auto">
               Expediente completo disponible. Listo para trabajar juntos y aportar valor real a tu equipo o empresa.
@@ -775,7 +775,7 @@ const Portfolio = () => {
             {/* Contact Info */}
             <div className="space-y-8 w-full lg:max-w-md mx-auto lg:mx-0">
               <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#4A0E1F]/20 p-8">
-                <h3 className="text-2xl font-bold mb-6 text-[#E63946]">Información de Contacto</h3>
+                <h3 className="text-2xl font-bold mb-6 text-[#E63946]">Información</h3>
                 
                 <div className="space-y-4">
                   <div className="flex items-center space-x-4 p-3 bg-[#151520]/50 rounded-lg">
