@@ -453,7 +453,7 @@ const Portfolio = () => {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#4A0E1F]/20 p-6">
                   <div className="flex items-center mb-4">
-                    <Database className="w-8 h-8 text-[#E63946] mr-3" />
+                    <Database className="w-8 h-8 text-[#E6B93D] mr-3" />
                     <h4 className="text-xl font-bold">Backend y arquitectura</h4>
                   </div>
                   <div className="grid grid-cols-2 gap-3">
@@ -468,16 +468,16 @@ const Portfolio = () => {
 
                 <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#4A0E1F]/20 p-6">
                   <div className="flex items-center mb-4">
-                    <Settings className="w-8 h-8 text-[#E63946] mr-3" />
+                    <Settings className="w-8 h-8 text-[#E6B93D] mr-3" />
                     <h4 className="text-xl font-bold">Bases de datos y metodologías</h4>
                   </div>
                   <div className="grid grid-cols-2 gap-3">
-                    <span className="bg-[#4A0E1F]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">MySQL</span>
-                    <span className="bg-[#4A0E1F]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">MongoDB</span>
-                    <span className="bg-[#4A0E1F]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Scrum</span>
-                    <span className="bg-[#4A0E1F]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">SOLID</span>
-                    <span className="bg-[#4A0E1F]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Git Flow</span>
-                    <span className="bg-[#4A0E1F]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">APIs REST</span>
+                    <span className="bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">MySQL</span>
+                    <span className="bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">MongoDB</span>
+                    <span className="bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Scrum</span>
+                    <span className="bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">SOLID</span>
+                    <span className="bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Git Flow</span>
+                    <span className="bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">APIs REST</span>
                   </div>
                 </div>
               </div>
@@ -492,40 +492,40 @@ const Portfolio = () => {
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#E63946]/20 p-6">
                   <div className="flex items-center mb-4">
-                    <Cloud className="w-6 h-6 text-[#E63946] mr-2" />
+                    <Cloud className="w-6 h-6 text-[#E6B93D] mr-2" />
                     <h4 className="font-bold">DevOps y cloud</h4>
                   </div>
                   <div className="space-y-2">
-                    <span className="block bg-[#E63946]/20 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Azure DevOps</span>
-                    <span className="block bg-[#E63946]/20 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Docker</span>
-                    <span className="block bg-[#E63946]/20 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Jenkins</span>
-                    <span className="block bg-[#E63946]/20 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">GitHub Actions</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Azure DevOps</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Docker</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Jenkins</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">GitHub Actions</span>
                   </div>
                 </div>
 
                 <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#E63946]/20 p-6">
                   <div className="flex items-center mb-4">
-                    <Code2 className="w-6 h-6 text-[#E63946] mr-2" />
+                    <Code2 className="w-6 h-6 text-[#E6B93D] mr-2" />
                     <h4 className="font-bold">Full-Stack</h4>
                   </div>
                   <div className="space-y-2">
-                    <span className="block bg-[#E63946]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Django + DRF</span>
-                    <span className="block bg-[#E63946]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Flutter</span>
-                    <span className="block bg-[#E63946]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">JavaScript</span>
-                    <span className="block bg-[#E63946]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">HTML/CSS</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Django + DRF</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Flutter</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">JavaScript</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">HTML/CSS</span>
                   </div>
                 </div>
 
                 <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#E63946]/20 p-6">
                   <div className="flex items-center mb-4">
-                    <Zap className="w-6 h-6 text-[#E63946] mr-2" />
+                    <Zap className="w-6 h-6 text-[#E6B93D] mr-2" />
                     <h4 className="font-bold">Herramientas</h4>
                   </div>
                   <div className="space-y-2">
-                    <span className="block bg-[#E63946]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Git Avanzado</span>
-                    <span className="block bg-[#E63946]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">IaaS/PaaS</span>
-                    <span className="block bg-[#E63946]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Swagger/OpenAPI</span>
-                    <span className="block bg-[#E63946]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Postman</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Git Avanzado</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">IaaS/PaaS</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Swagger/OpenAPI</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Postman</span>
                   </div>
                 </div>
               </div>
@@ -533,56 +533,56 @@ const Portfolio = () => {
 
             {/* En Desarrollo Activo */}
             <div>
-              <h3 className="text-2xl font-bold text-[#E6B93D] mb-6 flex items-center">
+              <h3 className="text-2xl font-bold text-[#E63946] mb-6 flex items-center">
                 <Zap className="w-6 h-6 mr-3" />
                 EN DESARROLLO ACTIVO
               </h3>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#E6B93D]/20 p-6">
+                <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#E63946]/20 p-6">
                   <div className="flex items-center mb-4">
                     <Code2 className="w-6 h-6 text-[#E6B93D] mr-2" />
                     <h4 className="font-bold text-sm">Frontend moderno</h4>
                   </div>
                   <div className="space-y-2">
-                    <span className="block bg-[#E6B93D]/20 text-[#E6B93D] px-2 py-1 rounded text-xs text-center">React + Hooks</span>
-                    <span className="block bg-[#E6B93D]/20 text-[#E6B93D] px-2 py-1 rounded text-xs text-center">Next.js</span>
-                    <span className="block bg-[#E6B93D]/20 text-[#E6B93D] px-2 py-1 rounded text-xs text-center">TypeScript</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-2 py-1 rounded text-xs text-center">React + Hooks</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-2 py-1 rounded text-xs text-center">Next.js</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-2 py-1 rounded text-xs text-center">TypeScript</span>
                   </div>
                 </div>
 
-                <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#E6B93D]/20 p-6">
+                <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#E63946]/20 p-6">
                   <div className="flex items-center mb-4">
                     <Cpu className="w-6 h-6 text-[#E6B93D] mr-2" />
                     <h4 className="font-bold text-sm">AI y ML</h4>
                   </div>
                   <div className="space-y-2">
-                    <span className="block bg-[#E6B93D]/20 text-[#E6B93D] px-2 py-1 rounded text-xs text-center">PyTorch</span>
-                    <span className="block bg-[#E6B93D]/20 text-[#E6B93D] px-2 py-1 rounded text-xs text-center">Tensores</span>
-                    <span className="block bg-[#E6B93D]/20 text-[#E6B93D] px-2 py-1 rounded text-xs text-center">LLMs</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-2 py-1 rounded text-xs text-center">PyTorch</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-2 py-1 rounded text-xs text-center">Tensores</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-2 py-1 rounded text-xs text-center">LLMs</span>
                   </div>
                 </div>
 
-                <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#E6B93D]/20 p-6">
+                <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#E63946]/20 p-6">
                   <div className="flex items-center mb-4">
                     <Cloud className="w-6 h-6 text-[#E6B93D] mr-2" />
                     <h4 className="font-bold text-sm">Cloud native</h4>
                   </div>
                   <div className="space-y-2">
-                    <span className="block bg-[#E6B93D]/20 text-[#E6B93D] px-2 py-1 rounded text-xs text-center">Azure Ecosystem Deep</span>
-                    <span className="block bg-[#E6B93D]/20 text-[#E6B93D] px-2 py-1 rounded text-xs text-center">GraphQL</span>
-                    <span className="block bg-[#E6B93D]/20 text-[#E6B93D] px-2 py-1 rounded text-xs text-center">Webhooks</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-2 py-1 rounded text-xs text-center">Azure Ecosystem Deep</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-2 py-1 rounded text-xs text-center">GraphQL</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-2 py-1 rounded text-xs text-center">Webhooks</span>
                   </div>
                 </div>
 
-                <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#E6B93D]/20 p-6">
+                <div className="bg-[#050507]/60 backdrop-blur-lg rounded-xl border border-[#E63946]/20 p-6">
                   <div className="flex items-center mb-4">
                     <Settings className="w-6 h-6 text-[#E6B93D] mr-2" />
                     <h4 className="font-bold text-sm">Automatización</h4>
                   </div>
                   <div className="space-y-2">
-                    <span className="block bg-[#E6B93D]/20 text-[#E6B93D] px-2 py-1 rounded text-xs text-center">n8n</span>
-                    <span className="block bg-[#E6B93D]/20 text-[#E6B93D] px-2 py-1 rounded text-xs text-center">Pytest</span>
-                    <span className="block bg-[#E6B93D]/20 text-[#E6B93D] px-2 py-1 rounded text-xs text-center">Jest Testing</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-2 py-1 rounded text-xs text-center">n8n</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-2 py-1 rounded text-xs text-center">Pytest</span>
+                    <span className="block bg-[#1F2937]/30 text-[#9CA3AF] px-2 py-1 rounded text-xs text-center">Jest Testing</span>
                   </div>
                 </div>
               </div>
