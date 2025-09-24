@@ -594,24 +594,24 @@ const Portfolio = () => {
             <h3 className="text-2xl font-bold text-center mb-8 text-[#E6B93D]">METAS 2025</h3>
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div className="space-y-4">
-                <div className="w-16 h-16 bg-[#E6B93D]/20 rounded-full flex items-center justify-center mx-auto">
-                  <CheckCircle className="w-8 h-8 text-[#E6B93D]" />
+                <div className="w-16 h-16 bg-[#4A0E1F]/20 rounded-full flex items-center justify-center mx-auto">
+                  <CheckCircle className="w-8 h-8 text-[#E63946]" />
                 </div>
-                <h4 className="font-bold text-[#E6B93D]">Q1: Backend mastery</h4>
+                <h4 className="font-bold text-[#E63946]">Q1: Backend mastery</h4>
                 <p className="text-sm text-[#9CA3AF]">Consolidación Spring Boot + Azure + patrones avanzados</p>
               </div>
               <div className="space-y-4">
-                <div className="w-16 h-16 bg-[#D4AF37]/20 rounded-full flex items-center justify-center mx-auto">
-                  <Zap className="w-8 h-8 text-[#D4AF37]" />
+                <div className="w-16 h-16 bg-[#4A0E1F]/20 rounded-full flex items-center justify-center mx-auto">
+                  <Zap className="w-8 h-8 text-[#E63946]" />
                 </div>
-                <h4 className="font-bold text-[#D4AF37]">Q2: Frontend + Cloud</h4>
+                <h4 className="font-bold text-[#E63946]">Q2: Frontend + Cloud</h4>
                 <p className="text-sm text-[#9CA3AF]">React/Next.js avanzado + arquitecturas cloud-native</p>
               </div>
               <div className="space-y-4">
-                <div className="w-16 h-16 bg-[#D4AF37]/20 rounded-full flex items-center justify-center mx-auto">
-                  <Target className="w-8 h-8 text-[#E6B93D]" />
+                <div className="w-16 h-16 bg-[#4A0E1F]/20 rounded-full flex items-center justify-center mx-auto">
+                  <Target className="w-8 h-8 text-[#E63946]" />
                 </div>
-                <h4 className="font-bold text-[#E6B93D]">Q3-Q4: AI integration</h4>
+                <h4 className="font-bold text-[#E63946]">Q3-Q4: AI integration</h4>
                 <p className="text-sm text-[#9CA3AF]">PyTorch aplicado + LLMs en soluciones empresariales</p>
               </div>
             </div>
@@ -734,10 +734,10 @@ const Portfolio = () => {
             <h3 className="text-2xl font-bold text-center mb-8 bg-gradient-to-r from-[#E6B93D] via-[#E6B93D] to-[#E63946] bg-clip-text text-transparent">HABILIDADES BLANDAS CLAVE</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center space-y-3">
-                <div className="w-16 h-16 bg-[#E6B93D]/20 rounded-full flex items-center justify-center mx-auto">
-                  <User className="w-8 h-8 text-[#E6B93D]" />
+                <div className="w-16 h-16 bg-[#4A0E1F]/20 rounded-full flex items-center justify-center mx-auto">
+                  <User className="w-8 h-8 text-[#E63946]" />
                 </div>
-                <h4 className="font-bold text-[#E6B93D]">Empatía y colaboración</h4>
+                <h4 className="font-bold text-[#E63946]">Empatía y colaboración</h4>
                 <p className="text-sm text-[#9CA3AF]">Conexiones auténticas con colegas, mentoring técnico y trabajo en equipo efectivo</p>
               </div>
               <div className="text-center space-y-3">
@@ -749,9 +749,9 @@ const Portfolio = () => {
               </div>
               <div className="text-center space-y-3">
                 <div className="w-16 h-16 bg-[#4A0E1F]/20 rounded-full flex items-center justify-center mx-auto">
-                  <Target className="w-8 h-8 text-[#4A0E1F]" />
+                  <Target className="w-8 h-8 text-[#E63946]" />
                 </div>
-                <h4 className="font-bold text-[#4A0E1F]">Equilibrio y resiliencia</h4>
+                <h4 className="font-bold text-[#E63946]">Equilibrio y resiliencia</h4>
                 <p className="text-sm text-[#9CA3AF]">Separación trabajo-vida personal, resiliencia a través del deporte y meditación</p>
               </div>
             </div>
