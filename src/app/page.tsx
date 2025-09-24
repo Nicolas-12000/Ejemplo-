@@ -457,12 +457,12 @@ const Portfolio = () => {
                     <h4 className="text-xl font-bold">Backend y arquitectura</h4>
                   </div>
                   <div className="grid grid-cols-2 gap-3">
-                    <span className="bg-[#4A0E1F]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Spring Boot</span>
-                    <span className="bg-[#4A0E1F]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Spring Security</span>
-                    <span className="bg-[#4A0E1F]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">JPA/Hibernate</span>
-                    <span className="bg-[#4A0E1F]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Swagger</span>
-                    <span className="bg-[#4A0E1F]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Modelo 4+1</span>
-                    <span className="bg-[#4A0E1F]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Hexagonal</span>
+                    <span className="bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Spring Boot</span>
+                    <span className="bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Spring Security</span>
+                    <span className="bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">JPA/Hibernate</span>
+                    <span className="bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Swagger</span>
+                    <span className="bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Modelo 4+1</span>
+                    <span className="bg-[#1F2937]/30 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Hexagonal</span>
                   </div>
                 </div>
 
@@ -496,10 +496,10 @@ const Portfolio = () => {
                     <h4 className="font-bold">DevOps y cloud</h4>
                   </div>
                   <div className="space-y-2">
-                    <span className="block bg-[#E63946]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Azure DevOps</span>
-                    <span className="block bg-[#E63946]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Docker</span>
-                    <span className="block bg-[#E63946]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">Jenkins</span>
-                    <span className="block bg-[#E63946]/20 text-[#E63946] px-3 py-2 rounded text-sm text-center">GitHub Actions</span>
+                    <span className="block bg-[#E63946]/20 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Azure DevOps</span>
+                    <span className="block bg-[#E63946]/20 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Docker</span>
+                    <span className="block bg-[#E63946]/20 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">Jenkins</span>
+                    <span className="block bg-[#E63946]/20 text-[#9CA3AF] px-3 py-2 rounded text-sm text-center">GitHub Actions</span>
                   </div>
                 </div>
 
